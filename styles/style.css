@@ -55,6 +55,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: red;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -63,7 +67,6 @@
   right: 0;
   z-index: -1;
 }
-
 
 .header__square-pic {
   height: 568px;
@@ -159,6 +162,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 1;
+  margin: 0;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -221,6 +226,11 @@
   right: 48px;
 }
 
+.feynman__link:hover {
+  color: red;
+}
+
+
 /* Блок kaufman */
 
 .kaufman {
@@ -279,13 +289,6 @@
 
 .footer__column {
 
-
-
-
-
-
-
-
 }
 
 .footer__column_content_copyright {
@@ -334,10 +337,11 @@
 
 .footer__column-link {
   text-decoration: none;
+  color: white;
 }
 
-.footer__column-link_theme_white {
-  color: white;
+.footer__column-link:hover {
+  color: red;
 }
 
 .footer__column_content_social {
